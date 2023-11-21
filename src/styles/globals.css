@@ -1,0 +1,242 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+*/
+
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.img-logo{
+  width: 15rem;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-size: 1.6rem;
+  line-height: 1.8;
+  background-image: linear-gradient(-223deg,rgb(255, 250, 250) 0%, rgb(250, 253, 255) 47%, rgb(245, 249, 252) 100% ) ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(43, 43, 142);
+  
+} 
+
+.header{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  background-color: white;
+  width: 100%;
+}
+
+.parrafo{
+  background-image: linear-gradient(-223deg,rgb(102, 169, 214) 0%, rgb(200, 219, 232) 47%, rgb(130, 170, 201) 100% ) ;
+  color: rgb(126, 126, 189);
+  text-align: center;
+  padding: 1rem;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  margin-top: 8.5rem;
+  gap: 6rem;
+}
+
+.iconoLink{
+  width: 3.7rem;
+}
+
+.contenido{
+  width:95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+
+.card{
+  border-style:inset black;
+  border-radius: 0.5rem;
+ padding: 4rem;
+ text-align: center;
+ margin-bottom: 1rem;
+ background-color: white;
+ border-radius: 3rem;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ transition: transform 0.2s ease-in-out;
+  font-size: 1.5rem;
+ 
+}
+
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.titulo-servicios{
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  background-color: white;
+  text-align: center;
+  padding: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(43, 43, 142);
+}
+
+.card-servicios{
+  display: block;
+  text-align: center;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.contenido-card{
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  background-color: white;
+  border-radius: 0.7rem;
+}
+
+.formacion-academica{
+  padding: 1.7rem;
+}
+
+blockquote{
+  font-weight: bold;
+}
+
+.titulo-blog{
+  background-color: white;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.blog{
+  padding: 2.5rem;
+}
+
+#cook{
+  margin-top: 4rem;
+}
+
+.imagen-block{
+  border-radius: 1rem;
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo-block{
+  width: 35rem;
+  height: 25rem;
+}
+
+.footer{
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+  padding: 1rem 0 3rem 0;
+  display: block;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+
+
+  @media(min-width: 460px){
+
+      .header{
+          display: block;
+          
+      }
+      
+    .informacion-contenido,
+     .contenido-blogs{
+         display: block;
+         
+     }
+     ul{
+      text-align: left;
+      font-size: 2rem;
+     }
+
+     .card{
+         margin-top: 3rem;
+         gap:3rem;
+     }
+  }
+  @media(min-width: 768px){
+  .header{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+
+      .informacion-contenido,
+      .contenido-blogs{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 3rem;
+          padding: 5rem;
+      }
+
+  }
+
+  #formularioContacto{
+padding: 1rem;
+}
+
+.formularioCliente{
+width: 90%;
+display: grid;
+gap: 1rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+.areaConsulta{
+  width: 50%;
+}
+
+  .campo,
+.btnAcceso,
+.btnCerrar{
+  width: 50%;
+  height: 2rem;
+}
+}
+
