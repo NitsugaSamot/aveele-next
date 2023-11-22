@@ -1,17 +1,7 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import Link from "next/link"
 
-const Header = () => {
-
-    const router = useRouter()
-
+const Redes = () => {
   return (
-    <div>
-        {/* <div className="header">
-            <div className="titulo">
-                <img className="img-logo" src="/img/7-avele.jpg" alt="" />
-            </div>
-
             <div className="redes">
                 <div className="link">
                     <Link
@@ -38,17 +28,7 @@ const Header = () => {
                     <img className="iconoLink" src="img/icons8-instagram-96.png" />
                 </Link>
             </div>
-        </div> */}
-
-        <div className="parrafo">
-        <img src="/img/0-ana-virginia-lona.jpg" alt="" />
-        <p>Asesoría Linguística</p>
-        <p>Lic. en Letras</p> 
-      </div>
-
-    </div>
   )
-
 }
 
-export default Header
+export default Redes
