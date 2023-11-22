@@ -100,6 +100,19 @@ body{
   color: rgb(97, 92, 92);
  
   justify-content: center;
+  border-style:inset black;
+  border-radius: 0.5rem;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  font-size: 1.5rem;
+  color: rgb(97, 92, 92);
+  width: 65%;
+  margin: 0 auto;
 }
 
 .servicios-lista{
@@ -107,7 +120,7 @@ body{
   gap: 0.9rem;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 12rem;
+  margin-top: 8rem;
 }
 
 .servicio-lista{
@@ -123,6 +136,7 @@ body{
 
 
 .card{
+
       border-style:inset black;
       border-radius: 0.5rem;
       padding: 1em;
@@ -199,8 +213,13 @@ blockquote{
 }
 
 .logo-block{
-  width: 45rem;
-  height: 30rem;
+  width: 25rem;
+  height: 21rem;
+}
+
+.contenido-card{
+  padding: 1rem;
+  height: 100%;
 }
 
 .footer{
@@ -243,11 +262,22 @@ blockquote{
 
       .informacion-contenido,
       .contenido-blogs{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
+          /* display: grid;
+          grid-template-columns: 1fr 1fr; */
           gap: 3rem;
           padding: 5rem;
       }
+
+    .card{
+      display: flex;
+      
+    }
+
+    .contenido-card{
+      margin-top: 8rem;
+    }
+
+  
 
   }
 

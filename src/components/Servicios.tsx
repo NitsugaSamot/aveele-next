@@ -3,7 +3,7 @@ const Servicios = () => {
   return (
     <div className="servicios-container">
         <div className="image-servicios">
-            <img src="img/22-asesoria-linguistica.jpg" alt="" />
+            <img className="logo-block" src="img/22-asesoria-linguistica.jpg" alt="" />
 
         </div>
 

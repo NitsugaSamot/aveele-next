@@ -43,7 +43,7 @@ const Header = () => {
         <div className="parrafo">
         <img src="/img/0-ana-virginia-lona.jpg" alt="" />
         <p>Asesoría Linguística</p>
-        <p>Lic. en Letras</p> 
+        {/* <p>Lic. en Letras</p>  */}
       </div>
 
     </div>

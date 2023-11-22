@@ -80,18 +80,18 @@ const Contenido = () => {
                 </div>
 
                 
-                    <div className="titulo-servicios">
+                    {/* <div className="titulo-servicios">
                         <h3>Textual y metafóricamente</h3>
-                    </div>        
+                    </div>         */}
                     
                     
 
-                <div className="formacion-academica">
-                <div className="contenido-card blog">
-                    <p>
-                    Reseñas, ensayos y crítica literaria, artes plásticas, música y teatro.
-                    </p>
-                </div>
+                
+                    <div className="contenido-card">
+                        <p>
+                        Reseñas, ensayos y crítica literaria, artes plásticas, música y teatro.
+                        </p>
+                    
 
                 </div>
             
@@ -114,22 +114,22 @@ const Contenido = () => {
 
 
                 
-                    <div className="titulo-servicios">
+                    {/* <div className="titulo-servicios">
                         <h2>Aveele</h2>
-                    </div>
+                    </div> */}
                 
 
 
-                <div className="formacion-academica">
+                
 
-                <div className="contenido-card blog">
+                <div className="contenido-card">
                     <p>
                         Servicios linguísticos, redacción, corrección de textos
-                        y prácticas de conversación en español.
+                        y tutorías.
                     </p>
                 </div>
 
-                </div>
+                
             </div>
 
       </Link>
@@ -137,33 +137,23 @@ const Contenido = () => {
       <Link href="https://nosolopetercooksinotambiendudleymoore.wordpress.com/" target="blanck">
 
             <div className="card">
-
                 <div className="imagen-block">
-
                     <div className="card-imagen">
-                    <img src="img/20.jpg" alt="" className="logo-block" />
-                    </div>
-                    
+                       <img src="img/4-traducciones.jpg" alt="" className="logo-block" />
+                    </div>            
                 </div>
 
+                    {/* <div className="titulo-servicios">
+                        <h2>Traducciones</h2>
+                    </div> */}
 
-                
-                    <div className="titulo-servicios">
-                        <h2>No solo Peter Cook, si no también Dudley Moore</h2>
-                    </div>
-                
-
-
-                <div className="formacion-academica">
-
-                <div className="contenido-card blog">
-                    <p>
-                    Traducción no oficial de sketchs de Peter Cook y Dudley Moore.
-                    </p>
-                    
-                </div>
-
-                </div>
+                  
+                      <div className="contenido-card">
+                          <p>
+                          Traducción no oficial de sketchs de Peter Cook y Dudley Moore.
+                          </p>
+                      </div>
+                  
             </div>
 
       </Link>
@@ -172,8 +162,6 @@ const Contenido = () => {
       
             <div className="card">
 
-                
-
                 <div className="imagen-block">
                     <div className="card-imagen">
                     <img src="img/8-azul-cook.jpg" alt="" className="logo-block" />
@@ -181,24 +169,18 @@ const Contenido = () => {
                 </div>
 
                 
-
-                
-                <div className="titulo-servicios">
+                {/* <div className="titulo-servicios">
                     <h2>Azul Cook</h2>
-                </div>
+                </div> */}
             
-
-
-                <div className="formacion-academica">
-                <div id="cook" className="contenido-card blog">
+                
+                <div className="contenido-card ">
                     <p>
-                    Cuentos
+                    Cuentos y poemas.
                     </p>
                     
                 </div>
                 
-
-                </div>
             </div>
 
       </Link>
