@@ -97,12 +97,10 @@ body{
   /* grid-template-columns:repeat(2, 40%); */
   grid-template-columns: 2fr 2fr;
   padding: 1rem;
-  color: rgb(97, 92, 92);
- 
+ color: rgb(97, 92, 92); 
   justify-content: center;
   border-style:inset black;
   border-radius: 0.5rem;
-  padding: 1em;
   text-align: center;
   margin-bottom: 1rem;
   background-color: white;
@@ -111,7 +109,7 @@ body{
   transition: transform 0.2s ease-in-out;
   font-size: 1.5rem;
   color: rgb(97, 92, 92);
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -214,7 +212,7 @@ blockquote{
 
 .logo-block{
   width: 25rem;
-  height: 21rem;
+  height: 24rem;
 }
 
 .contenido-card{
