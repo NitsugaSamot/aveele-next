@@ -32,30 +32,6 @@ const Contenido = () => {
         </div>
     
       </div> */}
-
-      {/* <div className="card">
-
-        <div className="imagen-block">
-          <div className="card-imagen">
-              <img src="img/formacion-academica.jpg" alt="" className="logo-block" />
-          </div>
-        </div>
-
-          <div className="titulo-servicios">
-            <h2>Formación académica</h2>
-          </div>
-
-          <div>
-            <div className="contenido-card formacion-academica">
-              <p>
-                Técnica en Corrección Instrumental de Textos literarios y licenciada en Letras Modernas.
-              </p>
-            </div>
-
-          </div>
-       </div> */}
-
-
      </div>
 
     

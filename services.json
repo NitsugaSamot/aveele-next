@@ -1,0 +1,102 @@
+{
+    "servicios": [
+      {
+        "name": "Redacción",
+        "content": {
+          "introduction": "La materia prima del texto",
+          "description": "Una vez acordado con el cliente qué tipo de texto necesita, se le solicitará lo más detallado posible información sobre el producto o servicio sobre el que desea contar algo. Es importante tener en cuenta a qué público va dirigido. En definitiva, lo que se busca es que lo que el texto describa motive y persuada al lector.",
+          "contact": {
+            "title": "El contacto",
+            "text": "Priorizo la relación cordial con el cliente durante todo el proceso del encargo. Es importante que haya claridad desde el primer contacto para lograr un beneficio mutuo y se obtenga un producto y un servicio de calidad. En el caso de que surgieren sugerencias, se evaluará en conjunto para lograr un texto coherente y claro. Servicios extra (que requieren un pago extra) Una tercera o cuarta revisión del texto, de acuerdo con el tema o complejidad de este. Las fuentes de consulta en inglés o en francés y requieran una traducción para ser citadas. La búsqueda y elaboración de gráficos estadísticos y de análisis. La búsqueda de imágenes, audio y video de fuentes gratuitas o pagas.",
+            "extraServices": [
+              "Una tercera o cuarta revisión del texto",
+              "Las fuentes de consulta en inglés o en francés",
+              "La búsqueda y elaboración de gráficos estadísticos",
+              "La búsqueda de imágenes, audio y video"
+            ]
+          },
+          "typesOfTexts": {
+            "title": "Tipos de textos",
+            "list": [
+              "Contenido web | Particulares y empresas",
+              "Descripción de servicios y productos",
+              "Artículos para blogs",
+              "Gacetillas",
+              "Catálogos",
+              "Folletos",
+              "Contenido para medios de comunicación",
+              "Reseñas",
+              "Ensayos",
+              "Entrevistas",
+              "Artículos para revistas",
+              "Contenido especializado | Escritura fantasma",
+              "Textos literarios",
+              "Reseñas",
+              "Ensayos",
+              "Entrevistas"
+            ]
+          },
+          "tariffs": {
+            "title": "Tarifas",
+            "text": "Las tarifas de redacción incluyen, de acuerdo con el tipo de encargo, dos revisiones ortotipográficas."
+          }
+        }
+      },
+      {
+        "name": "Corrección",
+        "content": {
+          "introduction": "Corrección y revisión de textos",
+          "description": "La tarifa por el servicio de corrección de textos contemplan diversos criterios que harán variar los montos, ya que se complejiza la tarea. Sin embargo, se utiliza como base para establecer un monto básico del servicio el que ofrece la asociación de correctores de Argentina (PLECA).",
+          "text": "Luego del primer contacto con el cliente, se tendrá en cuenta el tipo de texto, el tema (a mayor complejidad, más profundidad de investigación requiere), si se trata de una corrección ortotipográfica o si es de estilo; si se requiere revisión de normas bibliográficas o de vocabulario pertinente (según el tipo de texto, esto se encuentra en la revisión de estilo). Se definirá el tipo de corrección que necesita el texto, si el cliente no lo ha hecho previamente.",
+          "corrections": {
+            "title": "Las correcciones",
+            "text": "Se ofrecen dos tipos de corrección, la ortotipográfica y la estilística. La corrección de textos es la que se ocupa de la coherencia y la cohesión textual, así como también los errores ortotipográficos y de sintaxis. Un error ortográfico se presenta si una palabra como «huevo» está escrita sin «h». Un error tipográfico muy común es colocar punto en el título o escribir cada elemento de este con mayúsculas, lo cual es un calco del inglés. La corrección de estilo también se ocupa de la coherencia y la cohesión en función del registro del texto para evitar redundancias y ambigüedades. Por lo que se revisará la pertinencia de los términos y la coherencia sintáctica y semántica, las cuales nos proporcionan un texto coherente y sin equívocos."
+          },
+          "typesOfTexts": {
+            "title": "Tipos de textos",
+            "list": [
+              "Textos literarios",
+              "Reseñas de textos literarios, artes plásticas, artes audiovisuales y música",
+              "Ensayos académicos",
+              "Textos críticos sobre arte, cultura y literatura",
+              "Contenido web | Particulares y empresas",
+              "Descripción de servicios y productos",
+              "Artículos para blogs",
+              "Catálogos",
+              "Folletos",
+              "Reseñas",
+              "Ensayos",
+              "Entrevistas",
+              "Artículos para revistas"
+            ]
+          },
+          "contact": {
+            "title": "El contacto",
+            "text": "Priorizo la relación cordial con el cliente durante todo el proceso del encargo. Es importante que haya claridad desde el primer contacto para lograr un beneficio mutuo y se obtenga un producto y un servicio de calidad. En el caso de que surgieren sugerencias, se evaluará en conjunto para lograr un texto coherente y claro. Estoy a disposición para recibir consultas sobre estos puntos, como así también otros que no estén contemplados en la descripción del servicio. Pueden comunicarse conmigo mediante el siguiente enlace."
+          }
+        }
+      },
+      {
+        "name": "Lectura",
+        "content": {
+          "introduction": "Lectura beta",
+          "description": "Revisión de textos y la lectura beta\n\nEntendemos que hay un punto en el que el libro necesita una lectura ajena y en este momento entra en escena la lectura beta (o lectura cero). En esta etapa se revisa la trama del texto teniendo en cuenta el objetivo del autor. Se buscará que el texto presente una coherencia tanto interna (en el texto) como externa, atendiendo a la adecuación del texto a un género o géneros elegidos por el autor.\n\nLos servicios de lectura beta no implican una evaluación comercial de la obra, ya que esta depende de otras variables que un editor conoce del mercado editorial.",
+          "revisión": {
+            "title": "Revisión del escrito del Instituto Cervantes",
+            "text": "Este servicio incluye una revisión del escrito siguiendo los estándares y directrices del Instituto Cervantes. Se asegura que el texto cumpla con las normativas y recomendaciones para una correcta redacción y presentación, ofreciendo un enfoque detallado para mejorar la calidad del contenido."
+          }
+        }
+      },
+      {
+        "name": "Taller literario",
+        "content": {
+          "introduction": "Taller literario",
+          "description": "Este espacio es para que tu creatividad encuentre fuentes de inspiración mediante una exploración alquímica interior. La modalidad de las actividades es de taller virtual.\n\nTomaremos como fuente de inspiración un fragmento de alguna obra literaria o filosófica, una obra de arte o una pieza musical. En cada taller se elige una expresión artística o filosófica para trabajar en ella hasta llegar a un texto breve individual.\n\nLos encuentros son grupales. Fomentamos la lectura crítica de la propia escritura, pero también sobre la de los otros.\n\nExploraremos las cuestiones literarias, las muy íntimas que nos inspiran o no ciertas ideas, símbolos o elementos que activan nuestros sentidos. También revisaremos la normativa lingüística vigente para mejorar y ampliar las posibilidades de nuestra escritura."
+        }
+      }
+      
+      
+
+    ]
+  }
+  
