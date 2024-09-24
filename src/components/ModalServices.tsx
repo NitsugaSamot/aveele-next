@@ -109,7 +109,7 @@ const ServiceModal: React.FC<ServiceModalProps> = ({ visible, currentService, cl
                 <Box sx={{ mt: 1, pl: 2 }}>
                   {currentService.content.typesOfTexts.list?.map((text, index) => (
                     <Typography key={index} variant="body2" sx={{ mb: 1, fontSize: '1.1rem' }}>
-                      - {text}
+                       {text}
                     </Typography>
                   ))}
                 </Box>
