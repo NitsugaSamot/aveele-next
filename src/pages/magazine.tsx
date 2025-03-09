@@ -13,10 +13,8 @@ export default function Magazine() {
     <header className="headerr inicio">
         <div className="contenedor contenido-header">
             <div className="barra">
-                <a href="/">
                     <img src="/img/aveelee25.png" alt="Logo"/>
-                </a>
-
+   
                 <div className="mobile-menu">
                     <img src="/img/barras.png" alt="icono menu responsive"/>
                 </div>
@@ -24,10 +22,10 @@ export default function Magazine() {
                 <div className="derecha">
                     {/* <img className="dark-mode-boton" src="/img/dark-mode.svg"> */}
                     <nav className="navegacion">
-                        <a href="nosotros.html">Nosotros</a>
+                        {/* <a href="nosotros.html">Nosotros</a>
                         <a href="anuncios.html">Anuncios</a>
                         <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
+                        <a href="contacto.html">Contacto</a> */}
                     </nav>
                 </div>
    
