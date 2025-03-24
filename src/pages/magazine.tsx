@@ -4,8 +4,8 @@ import Header from '@/components/Header'
 import Contenido from '@/components/Contenido'
 import Servicios from '@/components/Servicios'
 import Redes from '@/components/Redes'
-
-const inter = Inter({ subsets: ['latin'] })
+import Articulos from "@/components/revista/Articulos";
+import articlesData from "../../articules.json";
 
 export default function Magazine() {
   return (
@@ -35,6 +35,15 @@ export default function Magazine() {
             <h1>Revista Web</h1>
         </div>
     </header>
+{/* 
+    <header className="bg-gray-900 text-white p-6 text-center">
+        <h1 className="text-3xl font-bold">Revista Web</h1>
+      </header> */}
+
+      <main className="p-8">
+      <Articulos articles={articlesData.articles} />
+        {/* <Articulos articles={articles} /> */}
+      </main>
         
     </>
   )
